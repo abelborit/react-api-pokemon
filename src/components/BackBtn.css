@@ -1,0 +1,42 @@
+.back-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 5rem;
+  left: 4.2rem;
+  z-index: 999;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 18px;
+  background-color: #212529;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 7px 7px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+.back-btn svg {
+  width: 30px;
+  height: 30px;
+  fill: #ffdbac;
+  transition: all 0.2s linear;
+}
+
+.back-btn:hover svg {
+  width: 34px;
+  height: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .back-btn {
+    top: 3.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .back-btn {
+    top: 4.2rem;
+  }
+}

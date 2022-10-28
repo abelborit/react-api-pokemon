@@ -1,0 +1,31 @@
+.error-fetch-containar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+}
+
+.error-fetch {
+  margin: 0.8rem;
+  font-size: 1.5rem;
+  color: #dc3545;
+}
+
+.error-fetch-containar p:first-child {
+  margin: 0.8rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.error-fetch-containar svg {
+  margin: 0.8rem;
+  width: 45px;
+  height: 45px;
+  fill: #dc3545;
+}

@@ -1,0 +1,132 @@
+.section-content {
+  margin: 1rem;
+  margin-top: 2.3rem;
+  text-align: center;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.section-links button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 35px;
+  background-color: #212529;
+  font-size: 1rem;
+  color: #ffdbac;
+  border: none;
+  border-top: 3px solid #e0ac69;
+  border-bottom: 3px solid #e0ac69;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.section-links button:hover {
+  color: #ecf0f1;
+  border-top: 3px solid #ecf0f1;
+  border-bottom: 3px solid #ecf0f1;
+}
+
+.current-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80px;
+  height: 90px;
+  margin: 0 0.5rem;
+  /* background-color: #212529; */
+  border: none;
+  outline: none;
+  /* border-top: 3px solid #e0ac69; */
+  /* border-bottom: 3px solid #e0ac69; */
+  /* border-radius: 10px; */
+}
+
+.current-page-number {
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  background-color: #212529;
+  /* font-size: 1rem; */
+  color: #ecf0f1;
+  border: none;
+  outline: none;
+  border-top: 3px solid #ecf0f1;
+  border-bottom: 3px solid #ecf0f1;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.current-page-number::placeholder {
+  color: #ecf0f199;
+}
+
+.current-page-number:focus {
+  color: #ffdbac;
+  border-top: 3px solid #e0ac69;
+  border-bottom: 3px solid #e0ac69;
+}
+
+.current-page .bt-search {
+  text-align: center;
+  width: 70px;
+  height: 32px;
+  background-color: #212529;
+  font-size: 1rem;
+  color: #ecf0f1;
+  border: none;
+  outline: none;
+  border-top: 3px solid #ecf0f1;
+  border-bottom: 3px solid #ecf0f1;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.current-page .bt-search:hover {
+  color: #ffdbac;
+  border-top: 3px solid #e0ac69;
+  border-bottom: 3px solid #e0ac69;
+}
+
+.section-pokemon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) {
+  .section-links {
+    margin-top: -1.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-links button {
+    font-size: 1.2rem;
+  }
+
+  .current-page {
+    margin: 0 0.5rem;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
