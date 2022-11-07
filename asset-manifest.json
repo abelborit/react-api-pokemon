@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-api-pokemon/static/css/main.e49ec8f8.css",
+    "main.css": "/react-api-pokemon/static/css/main.96411e17.css",
     "main.js": "/react-api-pokemon/static/js/main.bfebf5ca.js",
     "static/js/787.f8d54902.chunk.js": "/react-api-pokemon/static/js/787.f8d54902.chunk.js",
-    "static/media/background-light.jpg": "/react-api-pokemon/static/media/background-light.c8701ca6523f179e1b8a.jpg",
-    "static/media/card.jpg": "/react-api-pokemon/static/media/card.edaf29417dbfd7e0ff4f.jpg",
-    "static/media/pokemon-background.jpg": "/react-api-pokemon/static/media/pokemon-background.b5b71e363401038a725b.jpg",
+    "static/media/background-optimized.jpg": "/react-api-pokemon/static/media/background-optimized.c41cba7a6563b3f577bc.jpg",
+    "static/media/home-background-optimized.jpg": "/react-api-pokemon/static/media/home-background-optimized.d00a3df856861820440c.jpg",
+    "static/media/card-pokemon-optimized.jpg": "/react-api-pokemon/static/media/card-pokemon-optimized.7acd7d65a2e14eef66bb.jpg",
     "index.html": "/react-api-pokemon/index.html",
-    "main.e49ec8f8.css.map": "/react-api-pokemon/static/css/main.e49ec8f8.css.map",
+    "main.96411e17.css.map": "/react-api-pokemon/static/css/main.96411e17.css.map",
     "main.bfebf5ca.js.map": "/react-api-pokemon/static/js/main.bfebf5ca.js.map",
     "787.f8d54902.chunk.js.map": "/react-api-pokemon/static/js/787.f8d54902.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e49ec8f8.css",
+    "static/css/main.96411e17.css",
     "static/js/main.bfebf5ca.js"
   ]
 }
