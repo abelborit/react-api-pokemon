@@ -6,7 +6,7 @@ export function Header() {
     <header className="header">
       <div className="link-name">
         <a
-          href="https://abelborit.github.io"
+          href="https://github.com/abelborit"
           target="_blank"
           rel="noopener noreferrer"
         >
