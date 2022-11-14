@@ -56,7 +56,6 @@ export const useFetch = () => {
       setOffset(search * 20 - 20);
       setCurrentPage(search);
     }
-
     // console.log(search);
   };
 
